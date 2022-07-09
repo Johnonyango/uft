@@ -19,4 +19,4 @@ LogResult micPass , "Validation pass" , "Passed"
 LogResult micPass , "Validation pass" , "Passed"
 
 LogResult micPass , "Validation pass" , "Passed"
-LogResult micPass , "Validation pass" , "Passed"
+LogResult micFail , "Validation failed" , "Passed"
