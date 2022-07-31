@@ -1,1 +1,0 @@
-﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'C:\\AutomationTestingUFT12.02- option 01\\DriverScriptDemo\\Res5',namePairs:[]}]};
