@@ -1,0 +1,8 @@
+﻿CreateResultFile()
+Call fundMaster_login()
+Call gotoAdministrative()
+Call enableLocationBreakdown()
+Call gotoMainMenu()
+Call gotoSchemePage()
+Call AddTraditionalAuthorities()
+Call AddTraditionalAuthoritiesViaTemplate()

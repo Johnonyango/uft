@@ -1,0 +1,146 @@
+<html><head>  <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+<script type='text/javascript'>
+  google.charts.load('current', {packages:['corechart']}); 
+  google.charts.setOnLoadCallback(drawChart); 
+  function drawChart() { 
+    var data = google.visualization.arrayToDataTable([ 
+      ['Status', 'No.'], 
+      ['Pass',     8],
+      ['Fail',      16], 
+    ]); 
+    var options = { 
+      title: 'Test Summary', 
+      is3D: true, 
+    }; 
+    var chart = new google.visualization.PieChart(document.getElementById('piechart_3d')); 
+    chart.draw(data, options); }
+</script>  <title>Test Suite Summary Report</title></head>
+<body><div align='center'><center>
+<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: collapse' bordercolor='#111111' width='100%' height='116'><tr><td width='70%'>
+<table border='1' cellpadding='0' cellspacing='0' style='border-collapse: collapse' bordercolor='#111111' width='100%' height='116'>
+<tr><td width='100%' colspan='2' bgcolor='#828385' height='36'>
+<p align='center'><font face='Verdana' size='5' color='#FFFFFF'>Test Suite Summary Report</font></td></tr>
+<tr><td width='30%' height='25'><p style='margin-left: 5'><b><font face='Verdana' size='2'>Execution Date &amp; Time</font></b></td>
+<td width='70%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>Wednesday, November 23, 2022 6:43:57 PM</font></td></tr>
+<tr><td width='30%' height='25'><p style='margin-left: 5'><b><font face='Verdana' size='2'>Executed By</font></b></td>
+<td width='70%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>ADMINISTRATOR</font></td></tr>
+<tr><td width='30%' height='25'><p style='margin-left: 5'><b><font face='Verdana' size='2'>Executed Machine</font></b></td>
+<td width='70%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>EC2AMAZ-4I84599</font></td></tr>
+<tr><td width='30%' height='25'><p style='margin-left: 5'><b><font face='Verdana' size='2'>Test Case (s) Executed</font></b></td>
+<td width='70%' height='25'><p style='margin-left: 5'>24</td></tr>
+<tr><td width='30%' height='25'><p style='margin-left: 5'><b><font face='Verdana' size='2'>Test Case (s)<font color='#05A251'>PASS</font></font></b></td>
+<td width='70%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>8</font></td></tr>
+<tr><td width='30%' height='25'><p style='margin-left: 5'><b><font face='Verdana' size='2'>Test Case (s)<font color='#FF0000'>FAIL</font></font></b></td>
+<td width='70%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>16</font></td></tr>
+</table></center></div>
+<p style='margin-left: 5'>&nbsp;</p> </td>
+<td width='30%'><div id='piechart_3d' style='width: 500px; height: 300px;' align='Right'></div> </td></tr></table>
+<table border='1' cellpadding='0' cellspacing='0' style='border-collapse: collapse' bordercolor='#111111' width='100%' height='89'>
+<td width='7%' height='25'align='center' bgcolor='#828385'><b><font face='Verdana' size='2'>Sl. No.</font></b></td>
+<td width='50%' height='29' align='center' bgcolor='#828385'><b><font face='Verdana' size='2'>Test Script Name</font></b></td>
+<td width='10%' height='29' align='center' bgcolor='#828385'><b><font face='Verdana' size='2'>Execution Status</font></b></td>
+<td width='10%' height='29' align='center' bgcolor='#828385'><b><font face='Verdana' size='2'>Environment</font></b></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>5</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>05_Administrative_Password_Policy</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#05A251'>&nbsp;PASS</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>6</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>06_Administrative_Audit_Trail</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>7</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>07_Scheme_Setup_CreateNewScheme_Approve_Clone_Switch</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>8</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>08_Scheme_Create_New_Sponsor_Approve_addCostCenter_RemoveSponsor</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>9</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>09_Scheme_Basic_Setup_ModuleAllowanceConfigurations_DateAnd InsuranceCovers</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>10</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>Claim_And_Pesioners_Configurations</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#05A251'>&nbsp;PASS</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>11</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>Member_Configurations_Setup</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#05A251'>&nbsp;PASS</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>12</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>Contribution_And_Balances_Configurations</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#05A251'>&nbsp;PASS</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>13</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>New_Single_Member_And_Approve</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#05A251'>&nbsp;PASS</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>14</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>MemberOnboarding</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>15</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>MemberDocumentsChecklist</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#05A251'>&nbsp;PASS</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>16</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>AddPaypoints_And_Paypoint_Branches</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>17</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>MemberAddSingleDistrict</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>18</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>Add_Single_And_Batch_Traditional_Authority</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>19</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>Add_Beneficiaries_Batch</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>20</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>Update_Member_Details_Add_Notes</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>21</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>ImportMemberEndorseMemberUpdates</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>22</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>ImportBeneficiariesUpdateInBatch</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>23</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>Configure_Contribution_Rates</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#05A251'>&nbsp;PASS</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>24</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>Contribution_Add_Single_Contribution</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>25</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>Contributions_Batch_Upload</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>26</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>Contribution_Show_Batch_Details</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>27</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>Configs_Tie_Contribution_To_Receipts</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#05A251'>&nbsp;PASS</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+<td width='7%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>28</font></td>
+<td width='50%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>Contribution_Billing</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2' color='#FF0000'>&nbsp;FAIL</font></td>
+<td width='10%' height='25'><p style='margin-center: 5' align='center'><font face='Verdana' size='2'>&nbsp;DIV</font></td></tr>
+</table>
+<p>&nbsp;</p>
+<table border='1' cellpadding='0' cellspacing='0' style='border-collapse: collapse' bordercolor='#111111' width='36%' align='Left'>
+<tr><td width='25%' height='25'><p style='margin-left: 5'><b><font face='Verdana' size='2'>Start Time</font></b></td>
+<td width='75%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>&nbsp;11/23/2022 6:05:09 PM</font></td></tr>
+<tr><td width='25%' height='25'><p style='margin-left: 5'><b><font face='Verdana' size='2'>End Time</font></b></td>
+<td width='75%' height='25'><p style='margin-left: 5'><font face='Verdana' size='2'>&nbsp;11/23/2022 6:43:50 PM</font></td></tr>
+</table></body></html>
